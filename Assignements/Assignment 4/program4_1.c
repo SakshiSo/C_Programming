@@ -13,6 +13,16 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////
+//  Function Name   :   CheckNumber
+//  Input           :   Integer
+//  Output          :   It is positive or negative or zero
+//  Description     :   Checks the integer whether a positive or negative or zero
+//  Date            :   16/11/2026
+//  Author          :   Sakshi Avinash Sonavane
+///////////////////////////////////////////////////
+
+
 void CheckNumber(int iValue)
 {
     if(iValue > 0)
