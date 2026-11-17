@@ -15,6 +15,7 @@
 ///////////////////////////////////////////////////
 //  Function Name   :   CheckDivisibility
 //  Input           :   Integer
+//  Output          :   Is it divisible by 5 or not
 //  Description     :   Checks the integer whether 
 //                      divisible by 5 or not
 //  Date            :   17/11/2026
