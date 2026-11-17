@@ -42,19 +42,19 @@ void CalculateElectricityBill(int iUnits)
         printf("Invalid Units");
     }
 
-    if(iUnits <= 100)
+    if(iUnits > 0 && iUnits <= 100)
     {
         fBill = iUnits * 5;
         printf("%f", fBill);
     }
-    else if(iUnits > 100 && iUnits < 200)
+    else if(iUnits > 100 && iUnits <= 200)
     {
-        fBill = iUnits * 7;
+        fBill = (100 * 5) + (iUnits-100) * 7;
         printf("%f", fBill);
     }
     else if(iUnits >= 200)
     {
-        fBill = iUnits * 10;
+        fBill = (100 * 5) + (100 * 7) + (iUnits-200) * 10;
         printf("%f", fBill);
     }
 }
