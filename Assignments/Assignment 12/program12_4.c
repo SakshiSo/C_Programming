@@ -21,7 +21,7 @@
 //  Function Name   :   CheckFour
 //  Input           :   Integer
 //  Output          :   Integer
-//  Description     :   Accept number and count how many two are there
+//  Description     :   Accept number and count how many four are there
 //  Date            :   25/11/2026
 //  Author          :   Sakshi Avinash Sonavane
 ///////////////////////////////////////////////////
