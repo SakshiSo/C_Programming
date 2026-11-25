@@ -23,8 +23,8 @@
 ///////////////////////////////////////////////////
 //  Function Name   :   Count
 //  Input           :   Integer
-//  Output          :   Range in Reverse order
-//  Description     :   Print range in reverse order for user entered range
+//  Output          :   Integer
+//  Description     :   accept number and count how many digits are less than 6 are there
 //  Date            :   24/11/2026
 //  Author          :   Sakshi Avinash Sonavane
 ///////////////////////////////////////////////////
